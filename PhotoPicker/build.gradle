@@ -31,3 +31,28 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+//ext {
+//    package_userOrg = 'rokevin' // 组织名 不填默认用户名
+//    package_repo = 'maven' // bintray上的仓库名，一般为maven
+//    package_type = 'aar'  // 输出类型
+//    package_group = 'cn.rokevin' // JCenter的GroupId
+//    package_artifact = 'photopicker' // JCenter的ArtifactId
+//    package_version = '1.0.0'  // JCenter的VersionId
+//    package_description = '通过拍照和查看相册来获取图片uri'
+//
+//    siteUrl = 'https://github.com/Ro6Fish/PhotoPicker' // 项目的主页
+//    gitUrl = 'git@github.com:Ro6Fish/PhotoPicker.git'  // Git仓库的url
+//
+//    //开发者信息
+//    developerId = 'ro54kevin'
+//    developerName = 'rokevin'
+//    developerEmail = ''
+//
+//    //开源协议
+//    licenseName = 'The Apache Software License, Version 2.0'
+//    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//    allLicenses = 'Apache-2.0'
+//}
+
+//apply from:'https://raw.githubusercontent.com/Jude95/JCenter/v2/bintray.gradle'
