@@ -36,6 +36,7 @@ android {
     }
 }
 
+// 解决javadoc报错问题
 tasks.withType(Javadoc) {
     options.addStringOption('Xdoclint:none', '-quiet')
     options.addStringOption('encoding', 'UTF-8')
@@ -54,7 +55,7 @@ dependencies {
 }
 
 ext {
-    package_userOrg = 'rokevin' // 组织名 不填默认用户名
+    package_userOrg = '' // 组织名 不填默认用户名
     package_repo = 'maven' // bintray上的仓库名，一般为maven
     package_type = 'aar'  // 输出类型
     package_group = 'cn.rokevin' // JCenter的GroupId
